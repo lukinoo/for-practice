@@ -448,9 +448,9 @@ nav {
 
 .footer-social-networks {
     position: absolute;
-    bottom: 25%;
-    transform: translateY(-25%);
-    /* min-height: 12vh; */
+    bottom: 0;
+    transform: translateY(0%);
+    min-height: 12vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -478,7 +478,10 @@ nav {
         left: 50%;
         transform: translate(-50%, -5%);
     }
-
+    .footer-social-networks {
+        bottom: 15%;
+        transform: translateY(-15%);
+    }
     .for-influencer-text {
         display: none;
     }
