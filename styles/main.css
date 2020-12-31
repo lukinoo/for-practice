@@ -425,6 +425,7 @@ nav {
     color: #fff;
     position: relative;
     font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
 }
 
 .main-footer img {
@@ -515,6 +516,9 @@ nav {
     .for-second-clothing-image{
         flex-direction: column-reverse;
         align-items: center;
+    }
+    .main-footer {
+        margin-top: 20px;
     }
 }
 
